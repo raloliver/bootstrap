@@ -10,9 +10,9 @@
 				<script $src="js/html5shiv.js"></script>
 			<![endif]-->
 			<style type="text/css">
-				.container{background: red;}
+				/*.container{background: red;}
 				.span3{background: green;}
-				.span4{background: orange;}
+				.span4{background: orange;}*/
 			</style>
 		</head>
 		<body>
@@ -45,8 +45,10 @@
 					</address>
 				</div>
 			</div>
+			</div>
+			<hr>
 			<div class="row">
-				<div class="span6">
+				<div class="span6 offset3">
 					<blockquote class="pull-right">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, modi, minus, ex consequatur reiciendis ratione autem aperiam cum totam eveniet dignissimos fugit magni repudiandae reprehenderit perspiciatis consequuntur architecto ipsam quam.
@@ -57,14 +59,14 @@
 					</blockquote>
 				</div>
 				<div class="span6">
-					<code>Coração</code>
+					<code>TAGS</code>
 					<pre>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ex aliquid natus temporibus iste praesentium obcaecati dolor consequatur quo doloremque quae fuga voluptatum at odit earum omnis sapiente veritatis amet.
 					</pre>
 				</div>
 			</div>
-			</div>
-				<div class="span12">
+			<hr>
+				<div class="span12 offset3">
 					<table class="table table-bordered table-hover">
 						<caption>Tabela 1</caption>
 							<thead>
@@ -98,7 +100,142 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ex aliquid natu
 						</tbody>
 					</table>
 				</div>
+				<div class="container">				
+					<div class="row">
+						<div class="span6">
+							<form>
+								<legend>Formulário</legend>
+									<label>Fale Conosco</label>
+									<input type="text" placeholder="Nome Completo">
+									<span class="help-block">Entre em contato conosco para mais informações.</span>
+									<label class="checkbox">
+									<input type="checkbox"> Assinar nossa newsletter	
+									</label>
+									<button type="submit" class="btn">Enviar</button>
+							</form>
+						</div>
+						<div class="span6">
+							<form class="form-search">
+								<legend>Pesquisa</legend>
+								<input type="text" class="input-medium search-query" placeholder="pesquisar...">
+								<button type="submit" class="btn">Busca</button>
+							</form>
+						</div>						
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="span6">
+							<form class="form-inline">
+								<legend>Login Horizontal</legend>
+								<input type="text" class="input-small" placeholder="Email">
+								<input type="password" class="input-small" placeholder="Senha">
+								<label class="checkbox">
+								<input type="checkbox"> Lembrar senha
+								</label>
+								<button type="submit" class="btn">Entrar</button>
+							</form>
+						</div>
+						<div class="span6">
+							<form class="form-horizontal">
+								<legend>Login Vertical</legend>
+									<div class="control-group">
+										<label class="control-label" for="inputEmail">Email</label>
+										<div class="controls">
+										<input type="text" id="inputEmail" placeholder="Email">
+										</div>
+									</div>
+									<div class="control-group">
+										<label class="control-label" for="inputPassword">Senha</label>
+										<div class="controls">
+										<input type="password" id="inputPassword" placeholder="Senha">
+									</div>
+									</div>
+									<div class="control-group">
+									<div class="controls">
+										<label class="checkbox">
+										<input type="checkbox">Lembrar senha
+										</label>
+									<button type="submit" class="btn">Entrar</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			<hr>
+			<div class="container">
+				<div class="row">
+					<h1>Formulários</h1>
+					<div class="span4">	
+						<label>Mensagem</label>
+						<textarea rows="3"></textarea>
+					</div>
+					<div class="span4">
+						<label>CheckBox</label>
+						<label class="checkbox">
+							<input type="checkbox" name="nome1" value="" checked> Opção 1 (selecionado)<br>
+							<input type="checkbox" name="nome2" value=""> Opção 2<br>
+							<input type="checkbox" name="nome3" value=""> Opção 3
+						</label>
+						<label>Radio</label>
+						<label class="radio">
+							<input type="radio" name="nome_radio" value="option1" checked>Opção 1 (selecionado)
+						</label>
+						<label class="radio">
+							<input type="radio" name="nome_radio" value="option2">
+							A opção 2 (sem seleção)
+						</label>
+					</div>
+					<div class="span4">
+						<label>CheckBox Inline</label>
+						<label class="checkbox inline">
+							<input type="checkbox" name="checkbox" id="inlineCheckbox1" value="option1"> 1
+							</label>
+							<label class="checkbox inline">
+							<input type="checkbox" name="checkbox" id="inlineCheckbox2" value="option2"> 2
+							</label>
+							<label class="checkbox inline">
+							<input type="checkbox" name="checkbox" id="inlineCheckbox3" value="option3"> 3
+						</label>
+						<hr>
+						<label>Radio Inline</label>
+						<label class="radio inline">
+							<input type="radio" name="nome_radio" id="inlineCheckbox1" value="option1"> 1
+							</label>
+							<label class="radio inline">
+							<input type="radio" name="nome_radio" id="inlineCheckbox2" value="option2"> 2
+							</label>
+							<label class="radio inline">
+							<input type="radio" name="nome_radio" id="inlineCheckbox3" value="option3"> 3
+						</label>
+					</div>
+					<div class="row">
+						<div class="span6">
+							<label>Select Simples</label>
+							<select multiple="combo">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+						<div class="span6">
+							<label>Select Múltiplo</label>
+							<select multiple="multiple">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+					</div>
+				</div>
 			</div>
+			</div>					
+			
 
 			<!-- Javascript -->
 			<script src="http://code.jquery.com/jquery.js"></script>
