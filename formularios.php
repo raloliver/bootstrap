@@ -48,6 +48,14 @@
 			</form>
 
 		</div>
+		<div class="row">
+			<div class="span6">
+				<div class="input-prepend">
+					<span class="add-on">@</span>
+					<input type="text" placeholder="Username">
+				</div>
+			</div>
+		</div>
 		<!-- Javascript -->
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>

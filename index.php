@@ -106,7 +106,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ex aliquid natu
 							<form>
 								<legend>Formulário</legend>
 									<label>Fale Conosco</label>
-									<input type="text" placeholder="Nome Completo">
+									<input type="text" placeholder="Nome Completo" required>
 									<span class="help-block">Entre em contato conosco para mais informações.</span>
 									<label class="checkbox">
 									<input type="checkbox"> Assinar nossa newsletter	
@@ -231,6 +231,140 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, ex aliquid natu
 								<option value="5">5</option>
 							</select>
 						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="span4">
+							<label>Extensão Lado Esquerdo</label>
+							<div class="input-prepend">
+								<span class="add-on">@</span>
+								<input type="text" placeholder="Usuário">
+							</div>
+						</div>
+						<div class="span4">
+							<label>Extensão Lado Direito</label>
+							<div class="input-append">
+								<input type="text">
+								<span class="add-on">.00</span>
+							</div>
+						</div>
+						<div class="span4">
+							<label>Combinados</label>
+							<div class="input-prepend input-append">
+								<span class="add-on">R$</span>
+								<input class="span2" type="text">
+								<span class="add-on">.00</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span3">
+							<label>Controle de Tamanho</label>
+							<form action="">
+								<input type="text" class="input-large" placeholder="Assunto"><br>
+								<textarea name="" id="" class="input-large" rows="10" placeholder="Mensagem"></textarea>
+						</div>						
+						<div class="span9 text-right">
+							<label>Tamanho Relativo</label>
+							inputmini: 	<input class="input-mini" type="text"><br>
+							inputsmall: <input class="input-small" type="text"><br>
+							inputmedium:<input class="input-medium" type="text"><br>
+							inputlarge:	<input class="input-large" type="text"><br>
+							inputxlarge:<input class="input-xlarge" type="text"><br>
+							inputxxlarge:<input class="input-xxlarge" type="text"><br>
+						</div>
+								<br><br>
+						<div class="span12">
+							<label>Controle de Tamanho Full-Width</label>
+								<input type="text" class="input-block-level" placeholder="Assunto"><br>
+								<textarea name="" id="" class="input-block-level" rows="10" placeholder="Mensagem"></textarea>
+							</form>
+						</div>
+								<br><br>
+						<div class="span12">
+							<label>Tamanho do Grid</label>
+							<input class="span5" type="text"><br>
+								<select class="span3">
+								...
+								</select><br>
+							<textarea class="span8" rows="5"></textarea>
+						</div>
+								<br><br>
+						<div class="span12">
+							<label>Múltiplos inputs de grid por linha</label>
+							<div class="controls-row">
+								<input class="span4" type="text">
+								<input class="span1" type="text">
+								<input class="span3" type="text">
+							</div>
+						</div>
+							<hr>
+						<div class="span4">
+							<label>Campo apenas para leitura (Reading)</label>
+							<span class="input-xlarge uneditable-input">Aceito os termos necessários.</span>
+						</div>
+						<div class="span4">
+							<label>Ações de formulários</label>
+							<div class="form-actions">
+								<button type="submit" class="btn btn-success">Salvar</button>
+								<button type="button" class="btn">Cancelar</button>
+							</div>							
+						</div>
+								<br><br>
+						<div class="span6">
+							<label>Texto de ajuda - Tooltips</label>
+							<input type="text"> <span class="help-block">Texto de ajuda em Bloco e que pode ter multiplas linhas.</span>
+						</div>
+						<div class="span6">
+							<label>Texto de ajuda - Tooltips</label>
+							<input type="text"> <span class="help-inline">Preencha com seu nome</span>
+							<input type="text"> <span class="help-inline">Preencha com seu email</span>
+							<input type="text"> <span class="help-inline">Escreva algo aqui</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span6">
+							<label>Estados de validação</label>
+							<div class="control-group warning">
+								<label class="control-label">Input com aviso</label>
+								<div class="controls">
+								<input type="text">
+								<span class="help-inline">Algo pode ter dado errado</span>
+								</div>
+							</div>
+						</div>
+						<div class="span6">
+							<label>Estados de validação</label>
+							<div class="control-group error">
+								<label class="control-label">Input com erro</label>
+								<div class="controls">
+								<input type="text">
+								<span class="help-inline">Por favor, corrija o erro</span>
+								</div>
+							</div>
+						</div>
+						<br><br>
+						<div class="span6">
+							<label>Estados de validação</label>
+							<div class="control-group info">
+								<label class="control-label">Input com informação</label>
+								<div class="controls">
+								<input type="text">
+								<span class="help-inline">Preencha o nome de usuário</span>
+								</div>
+							</div>
+						</div>
+						<div class="span6">
+							<label>Estados de validação</label>
+							<div class="control-group success">
+								<label class="control-label">Input com sucesso</label>
+								<div class="controls">
+								<input type="text">
+								<span class="help-inline">Campo preenchido corretamente!</span>
+								</div>
+							</div>
+						</div>
+						<br><br>
 					</div>
 				</div>
 			</div>
