@@ -12,10 +12,60 @@
 			<style type="text/css">
 				/*.container{background: red;}
 				.span3{background: green;}
-				.span4{background: orange;}*/
+				.span4{background: orange;}
+				body {padding-top: 40px;}*/
 			</style>
 		</head>
 		<body>
+			<div class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<a class="brand" href="#">Nome da Empresa</a> <!-- Um link simples para mostrar sua marca ou nome do projeto, requer apenas uma tag de link. -->
+						<ul class="nav">
+							<li class="divider-vertical"></li>
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Sobre</a></li>							
+							<li><a href="#">Produtos</a></li>
+						</ul>
+						<ul class="nav pull-right">
+							<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Usuário
+							<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+							<li><a href="#">Perfil</a></li>							
+							<li><a href="#">Sair</a></li>
+							</ul>
+						</li>
+						</ul>
+						<form class="navbar-search pull-right">
+							<input type="text" class="search-query" placeholder="pesquisar...">
+						</form>
+				</div>
+			</div>
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+					<!-- .btn-navbar é usado como alternador para conteúdo de barra de navegação colapsável -->
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					Tenha certeza de deixar a marca se você quer que ela seja mostrada
+						<a class="brand" href="#">Nome da Empresa</a>
+							<ul class="nav">
+								<li class="divider-vertical"></li>
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="#">Sobre</a></li>							
+								<li><a href="#">Produtos</a></li>
+							</ul>
+						<div class="nav-collapse">
+						
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="span3">
