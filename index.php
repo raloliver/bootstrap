@@ -52,7 +52,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</a>
-					Tenha certeza de deixar a marca se você quer que ela seja mostrada
+					<!-- Tenha certeza de deixar a marca se você quer que ela seja mostrada -->
 						<a class="brand" href="#">Nome da Empresa</a>
 							<ul class="nav">
 								<li class="divider-vertical"></li>
